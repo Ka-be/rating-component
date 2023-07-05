@@ -1,0 +1,10 @@
+footer{
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+  @include flex-center;
+}

@@ -1,4 +1,2 @@
-$(() => {
-	//jQuery code
-	console.info("jQuery has been loaded !");
-});
+const starsImages = document.querySelectorAll('.star');
+

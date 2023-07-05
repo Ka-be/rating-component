@@ -1,14 +1,13 @@
-# Project Title - [status]
+# Project Title - ![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square)
 
-![Status](https://img.shields.io/badge/Status-Not%20started-eb3b5a?style=flat-square)
 
-![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square)
 
-![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square)
+
+<!-- ![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square) -->
 
 <img src="images/logo.svg" width=50%>
 
-Description du projet
+A rating stars style component.
 
 ---
 
@@ -16,17 +15,11 @@ Description du projet
 
 **Client:**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/Sass-CC6699?&logo=sass&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?&logo=jquery&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?&logo=react&logoColor=61DAFB)
 
 **Server:**
 ![None](https://img.shields.io/badge/NONE-778899?)
-![PHP](https://img.shields.io/badge/PHP-777BB4?&logo=php&logoColor=white)
-![Node](https://img.shields.io/badge/Node.js-339933?&logo=nodedotjs&logoColor=white)
 
 ---
 

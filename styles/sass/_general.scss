@@ -1,0 +1,56 @@
+/* Flexbox*/
+@mixin flex-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column-evenly{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*
+***
+*/
+
+html{
+  color-scheme: dark;
+  background: #111827;
+}
+
+body{
+  @include flex-center;
+}
+
+main{
+  width: 70vw;
+  height: 70vh;
+
+  @include flex-column-evenly;
+
+  .container{
+    @include flex-center;
+  }
+
+
+  .stars{
+    width: 95%;
+    height: 50%;
+
+    .star-container{
+      height: auto;
+      width: calc(90% / 5);
+    }
+  }
+
+  .comment-container{
+    width: 90%;
+    height: 20%;
+    background: blue;
+
+  }
+}
