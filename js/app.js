@@ -29,6 +29,7 @@ stars.forEach((star, index) => {
                 star.style.filter = "drop-shadow(0px 0px 5px #A4CAFE)"
                 star.querySelector("path").setAttribute("stroke", "#C3DDFD");
 				textBox.innerHTML = comments.text[i];
+                textBox.style.color = "#E5E7EB"
                 emojiBox.innerHTML = comments.emoji[i];
 								
             } else {
