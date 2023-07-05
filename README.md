@@ -20,16 +20,13 @@ A rating stars style component.
 
 ![Responsive](https://img.shields.io/badge/Responsive-Full-27AE60?style=flat-square)
 
-
 ---
-
 
 ## 📲 Deployment
 
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?&logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?&logo=vercel&logoColor=white)
 
 ---
-
 
 ## 📸 Screenshots
 
