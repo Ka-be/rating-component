@@ -69,19 +69,17 @@ main .stars .star-container {
   height: auto;
   width: 18%;
 }
-main .stars .star-container .star {
+main .stars .star-container svg.star {
   cursor: pointer;
-}
-main .stars .star-container .star:hover {
-  fill: white;
-}
-main .stars .star-container .star:hover path {
-  stroke: white;
 }
 main .comment-container {
   width: 90%;
   height: 20%;
+  border-radius: 20px;
   background: #1F2937;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 footer {

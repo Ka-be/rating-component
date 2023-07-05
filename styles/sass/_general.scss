@@ -54,16 +54,8 @@ main{
       height: auto;
       width: calc(90% / 5);
 
-      .star{
+      svg.star{
         cursor: pointer;
-
-        &:hover{
-          fill: white;
-          
-          path{
-            stroke: white;
-          }
-        }
       }
     }
   }
@@ -71,6 +63,11 @@ main{
   .comment-container{
     width: 90%;
     height: 20%;
+    border-radius: 20px;
     background: #1F2937;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+
   }
 }
