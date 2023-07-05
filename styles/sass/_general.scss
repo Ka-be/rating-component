@@ -6,6 +6,13 @@
   justify-content: center;
 }
 
+@mixin flex-between{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @mixin flex-column-evenly{
   display: flex;
   flex-direction: column;
@@ -40,17 +47,30 @@ main{
   .stars{
     width: 95%;
     height: 50%;
+    @include flex-between;
+
 
     .star-container{
       height: auto;
       width: calc(90% / 5);
+
+      .star{
+        cursor: pointer;
+
+        &:hover{
+          fill: white;
+          
+          path{
+            stroke: white;
+          }
+        }
+      }
     }
   }
 
   .comment-container{
     width: 90%;
     height: 20%;
-    background: blue;
-
+    background: #1F2937;
   }
 }

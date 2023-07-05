@@ -60,15 +60,28 @@ main .container {
 main .stars {
   width: 95%;
   height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 main .stars .star-container {
   height: auto;
   width: 18%;
 }
+main .stars .star-container .star {
+  cursor: pointer;
+}
+main .stars .star-container .star:hover {
+  fill: white;
+}
+main .stars .star-container .star:hover path {
+  stroke: white;
+}
 main .comment-container {
   width: 90%;
   height: 20%;
-  background: blue;
+  background: #1F2937;
 }
 
 footer {
