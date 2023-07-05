@@ -49,7 +49,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 main .container {
   display: flex;
@@ -58,8 +58,9 @@ main .container {
   justify-content: center;
 }
 main .stars {
-  width: 95%;
-  height: 50%;
+  width: 90%;
+  height: auto;
+  margin: 2em 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,30 +68,61 @@ main .stars {
 }
 main .stars .star-container {
   height: auto;
-  width: 18%;
+  width: 12%;
 }
 main .stars .star-container svg.star {
   cursor: pointer;
 }
+main .stars .star-container svg.star:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
 main .comment-container {
   width: 90%;
-  height: 20%;
-  border-radius: 20px;
-  background: #1F2937;
+  height: 10%;
+  color: #D1D5DB;
   text-transform: uppercase;
+  font-size: 2vw;
   letter-spacing: 5px;
   text-align: center;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .comment-container .comment-container_text {
+  margin-top: 1.5em;
+  height: 80%;
+}
+main .comment-container .comment-container_emoji {
+  font-size: 4vw;
 }
 
+@media screen and (min-width: 900px) {
+  main .stars {
+    width: 60%;
+  }
+  main .comment-container {
+    font-size: 1.5vw;
+  }
+}
 footer {
   height: 30px;
   width: 100%;
   position: absolute;
   bottom: 0;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.5em;
+  color: #6B7280;
+  letter-spacing: 5px;
+  font-weight: 100;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+footer a:hover {
+  color: #C3DDFD;
+  transition: 0.2s ease all;
 }/*# sourceMappingURL=style.css.map */

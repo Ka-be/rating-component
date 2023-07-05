@@ -13,11 +13,11 @@
   justify-content: space-between;
 }
 
-@mixin flex-column-evenly{
+@mixin flex-column-center{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 /*
@@ -37,7 +37,7 @@ main{
   width: 70vw;
   height: 70vh;
 
-  @include flex-column-evenly;
+  @include flex-column-center;
 
   .container{
     @include flex-center;
@@ -45,29 +45,59 @@ main{
 
 
   .stars{
-    width: 95%;
-    height: 50%;
+    width: 90%;
+    height: auto;
+    margin: 2em 0;
     @include flex-between;
 
 
     .star-container{
       height: auto;
-      width: calc(90% / 5);
+      width: calc(60% / 5);
 
       svg.star{
         cursor: pointer;
+
+        &:hover{
+          transform: scale(1.2);
+          transition: all 0.2s ease;
+        }
       }
     }
   }
 
   .comment-container{
     width: 90%;
-    height: 20%;
-    border-radius: 20px;
-    background: #1F2937;
+    height: 10%;
+    color: #D1D5DB;
     text-transform: uppercase;
+    font-size: 2vw;
     letter-spacing: 5px;
     text-align: center;
+    font-weight: 400;
 
+    @include flex-column-center;
+
+    .comment-container_text{
+      margin-top: 1.5em;
+      height: 80%;
+    }
+
+    .comment-container_emoji{
+      font-size: 4vw;
+    }
+  }
+}
+
+
+@media screen and (min-width: 900px){
+  main{
+    .stars{
+      width: 60%;
+    }
+
+    .comment-container{
+      font-size: 1.5vw;
+    }
   }
 }
