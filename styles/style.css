@@ -44,7 +44,7 @@ body {
 }
 
 main {
-  width: 70vw;
+  width: 80vw;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -84,12 +84,13 @@ main .comment-container {
   text-transform: uppercase;
   font-size: 2vw;
   letter-spacing: 5px;
+  margin-top: 2em;
   text-align: center;
   font-weight: 400;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 main .comment-container .comment-container_text {
   margin-top: 1.5em;
@@ -103,8 +104,11 @@ main .comment-container .comment-container_emoji {
   main .stars {
     width: 60%;
   }
-  main .comment-container {
-    font-size: 1.5vw;
+  main .comment-container .comment-container_text {
+    font-size: 1vw;
+  }
+  main .comment-container .comment-container_emoji {
+    font-size: 3vw;
   }
 }
 footer {

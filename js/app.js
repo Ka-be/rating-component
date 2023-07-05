@@ -4,11 +4,11 @@ const textBox = document.querySelector('.comment-container_text');
 const emojiBox = document.querySelector('.comment-container_emoji');
 const comments = {
     text: [
-        "Flatter than a squashed snail",
-        "About as useful as a cardboard umbrella",
-        "In cosmic mediocrity, with a touch of interstellar boredom",
-        "A pure galactic delight, but not quite enough for a spaceship journey",
-        "As epic as a unicorn dancing under a shower of stardust"
+        "Plus plat qu'un escargot écrasé.",
+        "Aussi utile qu'un parapluie en carton.",
+        "Dans la moyenne cosmique, mais avec une touche d'ennui interstellaire.",
+        "Un pur plaisir galactique, mais pas encore assez pour un voyage en vaisseau spatial.",
+        "Aussi épique qu'une licorne dansant sous une pluie de paillettes stellaires."
     ],
     emoji:[
         "🐌",

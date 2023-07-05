@@ -20,6 +20,13 @@
   justify-content: center;
 }
 
+@mixin flex-column-start{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 /*
 ***
 */
@@ -34,7 +41,7 @@ body{
 }
 
 main{
-  width: 70vw;
+  width: 80vw;
   height: 70vh;
 
   @include flex-column-center;
@@ -73,10 +80,11 @@ main{
     text-transform: uppercase;
     font-size: 2vw;
     letter-spacing: 5px;
+    margin-top: 2em;
     text-align: center;
     font-weight: 400;
 
-    @include flex-column-center;
+    @include flex-column-start;
 
     .comment-container_text{
       margin-top: 1.5em;
@@ -97,7 +105,13 @@ main{
     }
 
     .comment-container{
-      font-size: 1.5vw;
+      .comment-container_text{
+        font-size: 1vw;
+      }
+  
+      .comment-container_emoji{
+        font-size: 3vw;
+      }
     }
   }
 }
