@@ -100,7 +100,7 @@ main .comment-container .comment-container_emoji {
   font-size: 4vw;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   main .stars {
     width: 60%;
   }
